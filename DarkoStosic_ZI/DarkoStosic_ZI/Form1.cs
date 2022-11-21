@@ -197,8 +197,7 @@ namespace DarkoStosic_ZI
                     character = reader.Read();
                 }
             }
-            //string message = "Bytes read:\n" + fileContents + "\nIn readable format:\n" + fileContentsUTF + "\nEncoded:\n" + encodedFileContents + "\nEncoded Readable:\n" + encodedFileContentsUTF;
-            //MessageBox.Show(message);
+           
 
             String encodedFilePath = string.Empty;
             if (ChooseOutput)
@@ -227,7 +226,7 @@ namespace DarkoStosic_ZI
                 saveStream.Write(encodedFileContentsUTF);
             }
 
-            //Koder.ResetRegisters();
+            Koder.ResetRegisters();
 
         }
 

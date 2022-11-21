@@ -66,7 +66,7 @@ namespace DarkoStosic_ZI
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 38);
+            this.label1.Location = new System.Drawing.Point(12, 11);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(58, 13);
             this.label1.TabIndex = 0;
@@ -74,7 +74,7 @@ namespace DarkoStosic_ZI
             // 
             // XPartTbx
             // 
-            this.XPartTbx.Location = new System.Drawing.Point(87, 35);
+            this.XPartTbx.Location = new System.Drawing.Point(87, 8);
             this.XPartTbx.Name = "XPartTbx";
             this.XPartTbx.Size = new System.Drawing.Size(100, 20);
             this.XPartTbx.TabIndex = 2;
@@ -88,14 +88,14 @@ namespace DarkoStosic_ZI
             // 
             // YPartTbx
             // 
-            this.YPartTbx.Location = new System.Drawing.Point(87, 60);
+            this.YPartTbx.Location = new System.Drawing.Point(87, 33);
             this.YPartTbx.Name = "YPartTbx";
             this.YPartTbx.Size = new System.Drawing.Size(100, 20);
             this.YPartTbx.TabIndex = 5;
             // 
             // ZPartTbx
             // 
-            this.ZPartTbx.Location = new System.Drawing.Point(87, 88);
+            this.ZPartTbx.Location = new System.Drawing.Point(87, 61);
             this.ZPartTbx.Name = "ZPartTbx";
             this.ZPartTbx.Size = new System.Drawing.Size(100, 20);
             this.ZPartTbx.TabIndex = 6;
@@ -103,7 +103,7 @@ namespace DarkoStosic_ZI
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 63);
+            this.label3.Location = new System.Drawing.Point(12, 36);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 7;
@@ -112,7 +112,7 @@ namespace DarkoStosic_ZI
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 91);
+            this.label4.Location = new System.Drawing.Point(12, 64);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(58, 13);
             this.label4.TabIndex = 8;
@@ -263,7 +263,7 @@ namespace DarkoStosic_ZI
             // 
             // Load_Key
             // 
-            this.Load_Key.Location = new System.Drawing.Point(195, 68);
+            this.Load_Key.Location = new System.Drawing.Point(195, 41);
             this.Load_Key.Name = "Load_Key";
             this.Load_Key.Size = new System.Drawing.Size(75, 40);
             this.Load_Key.TabIndex = 27;
@@ -294,7 +294,7 @@ namespace DarkoStosic_ZI
             // Key
             // 
             this.Key.AutoSize = true;
-            this.Key.Location = new System.Drawing.Point(12, 12);
+            this.Key.Location = new System.Drawing.Point(12, 90);
             this.Key.Name = "Key";
             this.Key.Size = new System.Drawing.Size(28, 13);
             this.Key.TabIndex = 30;
@@ -302,14 +302,14 @@ namespace DarkoStosic_ZI
             // 
             // LoadWholeKeyTb
             // 
-            this.LoadWholeKeyTb.Location = new System.Drawing.Point(87, 9);
+            this.LoadWholeKeyTb.Location = new System.Drawing.Point(87, 87);
             this.LoadWholeKeyTb.Name = "LoadWholeKeyTb";
             this.LoadWholeKeyTb.Size = new System.Drawing.Size(100, 20);
             this.LoadWholeKeyTb.TabIndex = 31;
             // 
             // LoadWholeKey
             // 
-            this.LoadWholeKey.Location = new System.Drawing.Point(195, 9);
+            this.LoadWholeKey.Location = new System.Drawing.Point(195, 87);
             this.LoadWholeKey.Name = "LoadWholeKey";
             this.LoadWholeKey.Size = new System.Drawing.Size(75, 23);
             this.LoadWholeKey.TabIndex = 32;

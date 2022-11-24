@@ -12,9 +12,9 @@ using System.Windows.Forms;
 namespace DarkoStosic_ZI
 {
     public partial class Form1 : Form
-    {//Treba se popravi ili izbrise ovo za veliki kljuc
+    {
         public A51 Koder { get; set; }
-
+      
         public String OdredisniFolder { get; set; }
 
         public bool Inicijalizacija { get; set; }
@@ -23,11 +23,12 @@ namespace DarkoStosic_ZI
             InitializeComponent();
 
             Koder = new A51();
+            
             Inicijalizacija = false;
             incTbx.Text = "Not initialized";
             incTbx.BackColor = Color.Red;
         }
-
+        /// A51 POCETAK
         private void Load_Key_Click(object sender, EventArgs e)
         {
             try
@@ -287,5 +288,27 @@ namespace DarkoStosic_ZI
                 }
             }
         }
+
+
+
+        /// A51 KRAJ
+        /// 
+        /// PlayfairCypher POCETAK
+
+
+
+        private void PlayfairEncript_Click(object sender, EventArgs e)
+        {
+            string kriptovaniText = PlayfairCipher.Encipher(PlayfairText.Text, PlayfairKey.Text);
+            PlayfairOutput.Text = kriptovaniText;
+        }
+
+        private void PlayfairDecript_Click(object sender, EventArgs e)
+        {
+            string dekriptovaniText = PlayfairCipher.Decipher(PlayfairText.Text, PlayfairKey.Text);
+            PlayfairOutput.Text = dekriptovaniText;
+        }
+
+        /// PlayfairCYpher KRAJ
     }
 }

@@ -58,6 +58,15 @@ namespace DarkoStosic_ZI
             this.LoadWholeKeyTb = new System.Windows.Forms.TextBox();
             this.LoadWholeKey = new System.Windows.Forms.Button();
             this.incTbx = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.PlayfairKey = new System.Windows.Forms.TextBox();
+            this.PlayfairOutput = new System.Windows.Forms.TextBox();
+            this.PlayfairText = new System.Windows.Forms.TextBox();
+            this.PlayfairEncript = new System.Windows.Forms.Button();
+            this.PlayfairDecript = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.XVote)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ZVote)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.YVote)).BeginInit();
@@ -324,11 +333,97 @@ namespace DarkoStosic_ZI
             this.incTbx.Size = new System.Drawing.Size(100, 20);
             this.incTbx.TabIndex = 33;
             // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(310, 9);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(73, 13);
+            this.label2.TabIndex = 34;
+            this.label2.Text = "Playfair cipher";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(310, 40);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(28, 13);
+            this.label12.TabIndex = 35;
+            this.label12.Text = "Key:";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(310, 77);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(31, 13);
+            this.label13.TabIndex = 36;
+            this.label13.Text = "Text:";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(310, 110);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(82, 13);
+            this.label14.TabIndex = 37;
+            this.label14.Text = "Encript/Decript:";
+            // 
+            // PlayfairKey
+            // 
+            this.PlayfairKey.Location = new System.Drawing.Point(358, 33);
+            this.PlayfairKey.Name = "PlayfairKey";
+            this.PlayfairKey.Size = new System.Drawing.Size(204, 20);
+            this.PlayfairKey.TabIndex = 38;
+            // 
+            // PlayfairOutput
+            // 
+            this.PlayfairOutput.Location = new System.Drawing.Point(398, 107);
+            this.PlayfairOutput.Name = "PlayfairOutput";
+            this.PlayfairOutput.Size = new System.Drawing.Size(164, 20);
+            this.PlayfairOutput.TabIndex = 39;
+            // 
+            // PlayfairText
+            // 
+            this.PlayfairText.Location = new System.Drawing.Point(358, 74);
+            this.PlayfairText.Name = "PlayfairText";
+            this.PlayfairText.Size = new System.Drawing.Size(204, 20);
+            this.PlayfairText.TabIndex = 40;
+            // 
+            // PlayfairEncript
+            // 
+            this.PlayfairEncript.Location = new System.Drawing.Point(398, 145);
+            this.PlayfairEncript.Name = "PlayfairEncript";
+            this.PlayfairEncript.Size = new System.Drawing.Size(75, 38);
+            this.PlayfairEncript.TabIndex = 41;
+            this.PlayfairEncript.Text = "Playfair Encript";
+            this.PlayfairEncript.UseVisualStyleBackColor = true;
+            this.PlayfairEncript.Click += new System.EventHandler(this.PlayfairEncript_Click);
+            // 
+            // PlayfairDecript
+            // 
+            this.PlayfairDecript.Location = new System.Drawing.Point(487, 145);
+            this.PlayfairDecript.Name = "PlayfairDecript";
+            this.PlayfairDecript.Size = new System.Drawing.Size(75, 38);
+            this.PlayfairDecript.TabIndex = 42;
+            this.PlayfairDecript.Text = "Playfair Decript";
+            this.PlayfairDecript.UseVisualStyleBackColor = true;
+            this.PlayfairDecript.Click += new System.EventHandler(this.PlayfairDecript_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.PlayfairDecript);
+            this.Controls.Add(this.PlayfairEncript);
+            this.Controls.Add(this.PlayfairText);
+            this.Controls.Add(this.PlayfairOutput);
+            this.Controls.Add(this.PlayfairKey);
+            this.Controls.Add(this.label14);
+            this.Controls.Add(this.label13);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.incTbx);
             this.Controls.Add(this.LoadWholeKey);
             this.Controls.Add(this.LoadWholeKeyTb);
@@ -399,6 +494,15 @@ namespace DarkoStosic_ZI
         private System.Windows.Forms.TextBox LoadWholeKeyTb;
         private System.Windows.Forms.Button LoadWholeKey;
         private System.Windows.Forms.TextBox incTbx;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.TextBox PlayfairKey;
+        private System.Windows.Forms.TextBox PlayfairOutput;
+        private System.Windows.Forms.TextBox PlayfairText;
+        private System.Windows.Forms.Button PlayfairEncript;
+        private System.Windows.Forms.Button PlayfairDecript;
     }
 }
 

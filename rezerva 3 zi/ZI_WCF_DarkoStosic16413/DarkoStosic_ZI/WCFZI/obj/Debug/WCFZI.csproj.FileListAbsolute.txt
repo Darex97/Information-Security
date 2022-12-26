@@ -1,0 +1,7 @@
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\bin\WCFZI.dll.config
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\bin\WCFZI.dll
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\bin\WCFZI.pdb
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\obj\Debug\WCFZI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\obj\Debug\WCFZI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\obj\Debug\WCFZI.dll
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\WCFZI\obj\Debug\WCFZI.pdb

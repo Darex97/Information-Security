@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bd456cc5-d7ac-4a3c-a946-403b7696f772" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65348/SHA2.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="SHA2.wsdl" MetadataType="Wsdl" ID="7e39e2a7-0c72-4803-8990-3786a1f708b2" SourceId="1" SourceUrl="http://localhost:65348/SHA2.svc?wsdl" />
+    <MetadataFile FileName="SHA2.xsd" MetadataType="Schema" ID="79b9c3b8-8768-44a0-be47-58a3836077b1" SourceId="1" SourceUrl="http://localhost:65348/SHA2.svc?xsd=xsd0" />
+    <MetadataFile FileName="SHA2.disco" MetadataType="Disco" ID="5bb6c1f5-8f74-4e44-ab61-5b304c27c870" SourceId="1" SourceUrl="http://localhost:65348/SHA2.svc?disco" />
+    <MetadataFile FileName="SHA21.xsd" MetadataType="Schema" ID="2d3f118d-4aa4-44c8-87a5-daedd8271cd9" SourceId="1" SourceUrl="http://localhost:65348/SHA2.svc?xsd=xsd1" />
+    <MetadataFile FileName="SHA22.xsd" MetadataType="Schema" ID="9d7c1fca-cef9-42de-8025-5a1aee8e7ccf" SourceId="1" SourceUrl="http://localhost:65348/SHA2.svc?xsd=xsd2" />
+    <MetadataFile FileName="SHA23.xsd" MetadataType="Schema" ID="68ac90bb-5ae3-4b9e-b151-506bc938ea2a" SourceId="1" SourceUrl="http://localhost:65348/SHA2.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

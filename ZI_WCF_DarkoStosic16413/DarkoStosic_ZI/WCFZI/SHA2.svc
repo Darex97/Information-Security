@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="WCFZI.SHA2" CodeBehind="SHA2.svc.cs" %>

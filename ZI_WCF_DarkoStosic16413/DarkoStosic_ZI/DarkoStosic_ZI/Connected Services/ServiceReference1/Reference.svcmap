@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="31e63080-adca-4efa-af86-cf8c7ee71693" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:65348/PlayfairCipher.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PlayfairCipher.disco" MetadataType="Disco" ID="59bcd386-6721-4768-8635-543c56658b86" SourceId="1" SourceUrl="http://localhost:65348/PlayfairCipher.svc?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="56a6f779-00ba-440e-bf74-9242c4aff9bd" SourceId="1" SourceUrl="http://localhost:65348/PlayfairCipher.svc?wsdl" />
+    <MetadataFile FileName="PlayfairCipher.xsd" MetadataType="Schema" ID="b425bcd5-9cf9-4f74-ac66-3cf02456a743" SourceId="1" SourceUrl="http://localhost:65348/PlayfairCipher.svc?xsd=xsd2" />
+    <MetadataFile FileName="PlayfairCipher1.xsd" MetadataType="Schema" ID="7b95d5fe-2b17-43a6-8a40-91df351df06a" SourceId="1" SourceUrl="http://localhost:65348/PlayfairCipher.svc?xsd=xsd0" />
+    <MetadataFile FileName="PlayfairCipher2.xsd" MetadataType="Schema" ID="59b8cad0-bb8c-4748-924b-15f9509e728f" SourceId="1" SourceUrl="http://localhost:65348/PlayfairCipher.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

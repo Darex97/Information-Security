@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="SHA2" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:65348/SHA2.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:65348/SHA2.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:65348/SHA2.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/WCFZI" />
+      <xsd:import schemaLocation="http://localhost:65348/SHA2.svc?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ISHA2_DBL_INT_ADD_InputMessage">
+    <wsdl:part name="parameters" element="tns:DBL_INT_ADD" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_DBL_INT_ADD_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DBL_INT_ADDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_ROTLEFT_InputMessage">
+    <wsdl:part name="parameters" element="tns:ROTLEFT" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_ROTLEFT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ROTLEFTResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_ROTRIGHT_InputMessage">
+    <wsdl:part name="parameters" element="tns:ROTRIGHT" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_ROTRIGHT_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ROTRIGHTResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_CH_InputMessage">
+    <wsdl:part name="parameters" element="tns:CH" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_CH_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CHResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_MAJ_InputMessage">
+    <wsdl:part name="parameters" element="tns:MAJ" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_MAJ_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MAJResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_EP0_InputMessage">
+    <wsdl:part name="parameters" element="tns:EP0" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_EP0_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EP0Response" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_EP1_InputMessage">
+    <wsdl:part name="parameters" element="tns:EP1" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_EP1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EP1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SIG0_InputMessage">
+    <wsdl:part name="parameters" element="tns:SIG0" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SIG0_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SIG0Response" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SIG1_InputMessage">
+    <wsdl:part name="parameters" element="tns:SIG1" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SIG1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SIG1Response" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Transform_InputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2Transform" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Transform_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2TransformResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Init_InputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2Init" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Init_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2InitResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Update_InputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2Update" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Update_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2UpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Final_InputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2Final" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Final_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2FinalResponse" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Calculate_InputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2Calculate" />
+  </wsdl:message>
+  <wsdl:message name="ISHA2_SHA2Calculate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SHA2CalculateResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ISHA2">
+    <wsdl:operation name="DBL_INT_ADD">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/DBL_INT_ADD" message="tns:ISHA2_DBL_INT_ADD_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/DBL_INT_ADDResponse" message="tns:ISHA2_DBL_INT_ADD_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ROTLEFT">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/ROTLEFT" message="tns:ISHA2_ROTLEFT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/ROTLEFTResponse" message="tns:ISHA2_ROTLEFT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ROTRIGHT">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/ROTRIGHT" message="tns:ISHA2_ROTRIGHT_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/ROTRIGHTResponse" message="tns:ISHA2_ROTRIGHT_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CH">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/CH" message="tns:ISHA2_CH_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/CHResponse" message="tns:ISHA2_CH_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MAJ">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/MAJ" message="tns:ISHA2_MAJ_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/MAJResponse" message="tns:ISHA2_MAJ_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EP0">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/EP0" message="tns:ISHA2_EP0_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/EP0Response" message="tns:ISHA2_EP0_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EP1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/EP1" message="tns:ISHA2_EP1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/EP1Response" message="tns:ISHA2_EP1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SIG0">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SIG0" message="tns:ISHA2_SIG0_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SIG0Response" message="tns:ISHA2_SIG0_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SIG1">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SIG1" message="tns:ISHA2_SIG1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SIG1Response" message="tns:ISHA2_SIG1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Transform">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SHA2Transform" message="tns:ISHA2_SHA2Transform_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SHA2TransformResponse" message="tns:ISHA2_SHA2Transform_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Init">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SHA2Init" message="tns:ISHA2_SHA2Init_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SHA2InitResponse" message="tns:ISHA2_SHA2Init_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Update">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SHA2Update" message="tns:ISHA2_SHA2Update_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SHA2UpdateResponse" message="tns:ISHA2_SHA2Update_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Final">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SHA2Final" message="tns:ISHA2_SHA2Final_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SHA2FinalResponse" message="tns:ISHA2_SHA2Final_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Calculate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ISHA2/SHA2Calculate" message="tns:ISHA2_SHA2Calculate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ISHA2/SHA2CalculateResponse" message="tns:ISHA2_SHA2Calculate_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ISHA2" type="tns:ISHA2">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DBL_INT_ADD">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/DBL_INT_ADD" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ROTLEFT">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/ROTLEFT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ROTRIGHT">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/ROTRIGHT" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CH">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/CH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MAJ">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/MAJ" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EP0">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/EP0" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EP1">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/EP1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIG0">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SIG0" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SIG1">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SIG1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Transform">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SHA2Transform" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Init">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SHA2Init" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Update">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SHA2Update" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Final">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SHA2Final" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SHA2Calculate">
+      <soap:operation soapAction="http://tempuri.org/ISHA2/SHA2Calculate" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SHA2">
+    <wsdl:port name="BasicHttpBinding_ISHA2" binding="tns:BasicHttpBinding_ISHA2">
+      <soap:address location="http://localhost:65348/SHA2.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

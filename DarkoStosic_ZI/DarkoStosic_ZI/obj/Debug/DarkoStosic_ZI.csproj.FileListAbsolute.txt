@@ -8,3 +8,33 @@ C:\Users\user\source\repos\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_Z
 C:\Users\user\source\repos\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.exe
 C:\Users\user\source\repos\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.pdb
 C:\Users\user\source\repos\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Form1.resources
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.exe.config
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.exe
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.pdb
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Form1.resources
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Properties.Resources.resources
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.exe
+C:\Users\user\Desktop\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.pdb
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.exe.config
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.exe
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.pdb
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Form1.resources
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Properties.Resources.resources
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.exe
+C:\Users\user\Desktop\rezerva sa tabovima\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.pdb
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.exe.config
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.exe
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\bin\Debug\DarkoStosic_ZI.pdb
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Form1.resources
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.Properties.Resources.resources
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.exe
+C:\Users\user\Desktop\Finalna reerva\ZI_WCF_DarkoStosic16413\DarkoStosic_ZI\DarkoStosic_ZI\obj\Debug\DarkoStosic_ZI.pdb
